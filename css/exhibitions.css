@@ -1,0 +1,93 @@
+.exhibitions-back-img{
+	margin-top: 150px;
+}
+.exhibitions-h{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 15px;
+}
+.exhibitions-h h2{
+	font-family: 'Prata',serif;
+	letter-spacing: 10px;
+	color: #c21d1d;
+}
+.exhibitions-img img{
+	width: 100%;
+}
+.exhibitions-text{
+	margin-top: 50px;
+}
+.art-fairs h3{
+   font-family: 'Prata',serif;
+   color: #c21d1d;
+}
+.art-fairs p{
+	font-family: 'Prata',serif;
+	color: #000;
+	margin-top: 30px;
+	line-height: 1.6;
+	font-size: 15px;
+}
+.exhibitions-solo{
+	margin-top: 80px;
+}
+.exhibitions-solo h3{
+	font-family: 'Prata',serif;
+    color: #c21d1d;
+    margin-bottom: 50px;
+}
+.exhibitions-solo p{
+	font-family: 'Prata',serif;
+	color: #000;
+	line-height: 1.6;
+	font-size: 15px;
+
+}
+.exhibitions-selected-groups{
+	margin-top: 80px;
+	margin-bottom: 300px;
+}
+.exhibitions-selected-groups h3{
+	font-family: 'Prata',serif;
+    color: #c21d1d;
+    margin-bottom: 50px;
+}
+.exhibitions-selected-groups p{
+	font-family: 'Prata',serif;
+	color: #000;
+	line-height: 2;
+	font-size: 15px;
+}
+
+/*responsive*/
+
+@media only screen and (max-width: 640px){
+  .exhibitions-h h2{
+  	font-size: 25px;
+  	letter-spacing: 5px;
+  }
+  .exhibitions-text h3{
+  	font-size: 23px;
+  	letter-spacing: 2px;
+  }
+}
+@media only screen and (max-width: 414px){
+	
+	.exhibitions-back-img {
+    margin-top: 100px;
+}
+.exhibitions-h h2{
+		text-align: center;
+	}
+	.exhibitions-text h3{
+		text-align: center;
+	}
+	.exhibitions-text p{
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 360px){
+	.exhibitions-text h3{
+		font-size: 21px;
+	}
+}

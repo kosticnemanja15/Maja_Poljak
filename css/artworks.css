@@ -1,0 +1,91 @@
+.back-img{
+	margin-top: 150px;
+}
+.back-img-h{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.back-img-h h2{
+	font-family: 'Prata',serif;
+	letter-spacing: 10px;
+	color: #000;
+}
+.back-img-h h2 span{
+	color: #c21d1d;
+}
+.img-holder img{
+	width: 100%;
+}
+
+.drawings-type{
+	margin-bottom: 300px;
+}
+.drawings-type-1-a{
+	margin-top: 40px;
+}
+.drawings-type-1-a a{
+	font-family: 'Prata',serif;
+	letter-spacing: 10px;
+	color: #000;
+}
+.drawings-type-1-a a:hover{
+	text-decoration: none;
+	color: #c21d1d;
+}
+.drawings-type-1-img img{
+	width: 100%;
+}
+
+.drawings-type-2-a{
+	margin-top: 40px;
+}
+.drawings-type-2-a a{
+	font-family: 'Prata',serif;
+	letter-spacing: 10px;
+	color: #000;
+}
+.drawings-type-2-a a:hover{
+	text-decoration: none;
+	color: #c21d1d;
+}
+.drawings-type-2-img img{
+	width: 100%;
+}
+
+/*responsive*/
+
+@media only screen and (max-width: 991px){
+	.drawings-type h2{
+		font-size: 27px;
+		letter-spacing: 
+	}
+}
+@media only screen and (max-width: 767px){
+	.drawings-type h2{
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 640px){
+	.back-img-h h2{
+		font-size: 25px;
+		letter-spacing: 5px;
+	}
+	.drawings-type h2{
+		font-size: 25px;
+		letter-spacing: 5px;
+	}
+}
+@media only screen and (max-width: 414px){
+	.back-img {
+    margin-top: 100px;
+}
+	.back-img-h h2{
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 360px){
+	.drawings-type h2{
+		font-size: 23px;
+		letter-spacing: 3px;
+	}
+}

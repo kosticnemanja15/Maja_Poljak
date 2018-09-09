@@ -1,0 +1,80 @@
+
+html body{
+	background:#e6e5d7;
+}
+
+
+.majaenter-img-holder{
+	margin-top: 150px;
+	text-align: center;
+}
+.majaenter-img-holder img{
+	width: 400px;
+}
+.naslov-holder{
+	text-align: center;
+	margin-top: 50px;
+}
+.naslov-holder h1{
+	font-family: 'Prata',serif;
+	letter-spacing: 30px;
+	font-size:50px;
+	color: #c21d1d;
+}
+.enter-holder {
+	text-align: center;
+	margin-top: 40px;
+}
+.enter-holder a{
+	font-family: 'Prata',serif;
+	letter-spacing: 20px;
+	font-size:20px;
+	color: #000;
+}
+.enter-holder a:hover{
+	color: #000;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+/*responsive*/
+
+@media only screen and (max-width: 640px){
+	.majaenter-img-holder{
+		margin-top: 100px;
+	}
+}
+@media only screen and (max-width: 414px){
+	.majaenter-img-holder img {
+    width: 300px;
+    }
+    .naslov-holder h1 {    
+    letter-spacing: 20px;
+    font-size: 40px;    
+    }
+    .enter-holder a {
+    letter-spacing: 17px;
+    font-size: 18px;
+    }
+}
+@media only screen and (max-width: 360px){
+	.majaenter-img-holder img {
+    width: 250px;
+    }
+    .naslov-holder h1 {
+    letter-spacing: 17px;
+    font-size: 37px;
+    }
+}
+@media only screen and (max-width: 320px){
+	.majaenter-img-holder{
+		margin-top: 70px;
+	}
+	.majaenter-img-holder img {
+    width: 233px;
+    }
+	.enter-holder a {
+    letter-spacing: 12px;
+    font-size: 17px;
+}
+}
